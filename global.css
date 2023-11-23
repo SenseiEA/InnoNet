@@ -1,0 +1,388 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #0a1d3b;
+    font-family: Arial, sans-serif;
+    background-color: #0A1D3B!important;
+
+}
+
+header {
+    background-color: #0A1D3B;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 6rem;
+    border-bottom: #F9943B solid;
+
+    
+}
+
+header img:first-child {
+    height: 9rem;
+    width: 9rem;
+}
+
+header img:nth-child(2) {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    right: 40px;
+}
+
+
+header * {
+    display: inline-block;
+    margin:1vh;
+    padding:0;
+}
+
+header ul {
+    float: left;
+}
+
+header ul li {
+    position: relative;
+    left: 2.5vh;
+    margin: 1.25vh;
+    color: #0A1D3B;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+header ul li a:hover{
+    background-color: #F9943B;
+    color: #0a1d3b;
+}   
+
+header ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1.25vh;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #0A1D3B;
+}
+
+#InnoNetPost:first-child{
+    border-radius: 10px;
+    background-color: #0A1D3B;
+    border: solid #0A1D3B 1vh;
+    border-color: #F9943B;
+    color: white;
+    width: 125vh;
+    margin: 5vh;
+    margin-top: 20vh;
+    padding: 2vh;
+    float:left; 
+
+}
+
+
+#InnoNetPost #profilePicture{
+    border-radius: 100%;
+    border: solid .5vh;
+    border-color: #F9943B;
+    margin: 1vh;
+    height: 10vh;
+    width: 10vh;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#InnoNetPost .postText #image{
+    max-width: 115vh;
+    border-radius: 5vh;
+    border: solid 2px;
+    border-color: #F9943B;
+}
+
+#InnoNetPost #icons{
+    width: 3vh;
+    height: 3vh;
+}
+
+
+#sidebarInnoNet{
+    border-radius: 10px;
+    background-color: #0A1D3B;
+    border: solid #0A1D3B 1vh;
+    border-color: #F9943B;
+    color: white;
+    width:62vh;
+    float:right;
+    margin: 5vh;
+    margin-top: 20vh;
+    padding: 2vh;
+}
+
+
+#sidebarInnoNet img{
+    margin: 1vh;
+    height: 7.5vh;
+    width: 7.5vh;
+    
+}
+
+#sidebarInnoNet #Ideas{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2vh;
+    border-radius: 3vh;
+    color: #F9943B;
+    padding: 1vh;
+    display: inline-block;
+    line-height: 2vh;
+}
+
+#sidebarInnoNet #Trending{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2vh;
+    border-radius: 3vh;
+    color: white;
+    padding: 1vh;
+    display: inline-block;
+    line-height: 2vh;
+}
+
+#sidebarInnoNet #Trending h6{
+    color: lightgrey;
+}
+
+#sidebarInnoNet #Ideas:hover{
+    background-color: #4B6DA2;
+
+}
+
+#sidebarInnoNet #Trending:hover{
+    background-color: #4B6DA2;
+    width: 55vh;
+}
+
+
+
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+/*Clubs.html 
+Main content styles */
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Posts section styles */
+.posts-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Add this property */
+    flex-wrap: wrap;
+}
+
+.left-column {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+    margin:37px 0;
+}
+
+.post-card {
+    background-color: #202b3d;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category1 {
+    background-color: #9C0000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 3vh;
+    margin-bottom: 10px;
+}
+
+.category2 {
+    background-color: #009E16;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 3vh;
+    margin-bottom: 10px;
+}
+
+.category3 {
+    background-color: #FFFF00;
+    color: #202b3d;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 3vh;
+    margin-bottom: 10px;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #202b3d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Color scheme variations */
+.scheme-1 {
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* post footer */
+.post-footer {
+    position: relative;
+    margin-top: 10px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.counters-container {
+    display: flex;
+    align-items: center;
+}
+
+.comment-counter,
+.upvote-counter,
+.downvote-counter {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+.comment-counter {
+    background-color: #333;
+}
+
+.upvote-counter {
+    background-color: #ebc67b;
+    color: #202b3d;
+    margin-left: 5px; /* Add margin to separate counters */
+}
+
+.downvote-counter{
+    background-color: #FF6060 ;
+    color:#202b3d;
+    margin-left: 5px;
+}
+
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .posts-section {
+        flex-direction: column;
+    }
+
+    .left-column {
+        flex: 1;
+        padding-right: 0;
+    }
+
+    .right-column {
+        flex: 1;
+    }
+
+    .post-card,
+    .sidebar {
+        width: 100%;
+    }
+}
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #F9943B;
+  }
+  
+  .h-custom {
+    height: calc(100% - 73px);
+  }
+  
+  @media (max-width: 450px) {
+    .h-custom {
+      height: 100%;
+    } 
+  }
+
+  body {
+    background-color: #0A1D3B!important;
+  }
+
+.logins {
+    background-color: #032959;
+    border: 4px solid #F9943B;
+    border-radius: 30px;
+    padding: 3rem;
+    color: white;
+} 
+
+.logins .text-body {
+    color: white!important;
+}
+
+.container {
+    margin-top:10%;
+}
+.about-content {
+    display:inline-block;
+    align-self: center;
+    justify-content: space-between;
+    background-color: #032959;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 4px solid #F9943B;
+    
+}
+.about-content h1,h2,h3,h4,h5,h6,p {
+    color: white;
+}
+.about-content button {
+    display: inherit;
+    align-items: end;
+    align-content: end;
+    align-self: flex-end;
+    justify-items: end;
+    justify-self: end;
+    justify-content: flex-end;
+}
