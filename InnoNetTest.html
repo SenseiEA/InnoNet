@@ -18,25 +18,28 @@
 <body style=  'background-image: url("logos/Networking-PNG.png");
               background-size: cover;
               background-position: center;'>  
-  <header>
-      <div class="navbar">
-        <ul>
-          <img src="logos/Logo 1.png" alt="Logo InnoNet">
-          <img src="logos/InnoNet.png" alt="InnoNet">
-          <li><a href="InnoNetTest.html">Home</a></li>
-          <li><a href="javascript:void(0);" onclick="show();">Search</a>
-              <div id="searchBar" style="display:none">
-                <input type="text" id="searchBar"></div></li>
-          <li><a href="clubs.html">Clubs</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="login.html">Login</a></li>       
-          
-        </ul>
-      </div>
-  </header>
+        <header>
+            <img id="logoIcon" src="logos/Logo 1.png" alt="Logo InnoNet">
+            <img id="logoIcon" src="logos/InnoNet.png" alt="InnoNet">
+            <nav id="leftbar">
+              <ul>
+                <li><a href="InnoNetTest.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="clubs.html">Clubs</a></li>
+              </ul>
+            </nav>
+            <input type="text" id="searchBar">
+            <nav id="rightbar">
+              <ul>
+                <li><a href="#"><img id="pfpIcon" src="images/settingsicon.png" alt="settingsicon"></a></li>
+                <li><a href="#"><img id="pfpIcon" src="images/notifbell.png" alt="notifbell"></a></li>
+                <li><a href="login.html"><img id="pfpIcon" src="images/usericon1.png" alt="usericon1"></a></li>
+              </ul>
+            </nav>
+          </header>
   <main>
-        <div id="InnoNetPost">
+    <div id="containerHome">
+        <div id="MainBar" class="col-lg-8 col-xl-8">
             <h1>News Feed</h1>
             <hr>
             <img id="profilePicture"src="images/faruzanPNG.png" alt="faruzanChibi">Madam Faruzan</img>
@@ -81,7 +84,9 @@
               <img src="images/messageicon.png" alt="messageIcon" id="icons"> 84
               <hr>    
               <img id="profilePicture" src="images/kavehPNG.png" alt="kavehChibi">arki101</img>
-              <div class="postText"><img id="image" src="images/basicImage.png" alt="faruzanChibi"><br>
+              <div class="postText"><img id="image" src="images/basicImage.png" alt="faruzanChibi">
+                <br>
+                <br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
                 ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -92,34 +97,40 @@
               <img src="images/messageicon.png" alt="messageIcon" id="icons"> 84 
               
         </div>
-        <div id="sidebarInnoNet"><h4>Share your Ideas~</h4>
-          <a href="#" id="Ideas"><img src="images/postLogo.png" alt="Post">Post</a>
-          <a href="#" id="Ideas"><img src="images/imageLogo.png" alt="Post">Image</a>
-          <a href="#" id="Ideas"><img src="images/videoLogo.png" alt="Post">Video</a>
-          <hr>
-          <h4>What's Trending</h4>
-          <hr>
-          <a href="#" id="Trending"><h5>Artifical Intelligence</h5>
-          <h6>12k Posts</h6></a>
-          <hr>
-          <a href="#" id="Trending"><h5>Moon Landing Technology</h5>
-          <h6>71k Posts</h6></a>
-          <hr>
-          <a href="#" id="Trending"><h5>Terraformation</h5>
-          <h6>1.5k Posts</h6></a>
-          <hr>
-          <a href="#" id="Trending"><h5>MIT</h5>
-          <h6>699 Posts</h6></a>
-          <hr>
-          <a href="#" id="Trending"><h5>4-D Printing</h5>
-          <h6>75k Posts</h6></a>
-          <hr>
-          <a href="#" id="Trending"><h5>MidJourney</h5>
-          <h6>16k Posts</h6></a>
-          <hr>
+        <div id="sidebarInnoNet" class="col-lg-4 col-xl-4">
+          <div id="sidebar-one">
+            <h4>Share your Ideas~</h4>
+            <a href="#" id="Ideas"><img src="images/postLogo.png" alt="Post">Post</a>
+            <a href="#" id="Ideas"><img src="images/imageLogo.png" alt="Post">Image</a>
+            <a href="#" id="Ideas"><img src="images/videoLogo.png" alt="Post">Video</a>
+            <hr>
+            <h4><img src="images/stonksicon.png" alt="stonksicon" id="sidebarIcon">What's Trending</h4>
+            <hr>
+            <a href="#" id="Trending"><h5>Artifical Intelligence</h5>
+            <h6>12k Posts</h6></a>
+            <hr>
+            <a href="#" id="Trending"><h5>Moon Landing Technology</h5>
+            <h6>71k Posts</h6></a>
+            <hr>
+            <a href="#" id="Trending"><h5>Terraformation</h5>
+            <h6>1.5k Posts</h6></a>
+            <hr>
+            <a href="#" id="Trending"><h5>MIT</h5>
+            <h6>699 Posts</h6></a>
+            <hr>
+            <a href="#" id="Trending"><h5>4-D Printing</h5>
+            <h6>75k Posts</h6></a>
+            <hr>
+            <a href="#" id="Trending"><h5>MidJourney</h5>
+            <h6>16k Posts</h6></a>
+            <hr>
+          </div>
+          <div id="sidebar-two">
+            Test
+          </div>
 
         </div>
-
+      </div>
   </main>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
