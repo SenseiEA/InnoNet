@@ -1,0 +1,105 @@
+<!-- main.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="global.css">
+  <!-- Other head elements -->
+</head>
+<body>
+    <!-- post.html -->
+  <div class="post" id="postId">
+    <div class="post-content">
+      <span class="close" onclick="closePost()">&times;</span>
+      
+<!-- The Fullscreen Modal -->
+<div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalId" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+
+          <!-- Modal Header -->
+          <!-- Post user will appear here -->
+          <div class="modal-header custom-modal-header">
+              <a href="#"><img id="modal-profilePicture" src="images/kavehPNG.png" alt="kavehChibi"></img><h5 id="userModalpfp">User</h5></a>
+
+              <button type="button" class="btn-close btn-close-white btn-light m-0 p-3 rounded" onclick="closePost()"></button>
+
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body container-xl m-0">
+              <div class="modal-postText">
+                  <img id="image" src="images/basicImage.png" alt="faruzanChibi">
+                <br>
+                <br>
+                <div>                    
+                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. -->
+                </div>
+              </div>
+                <br>
+              <div class="modal-postFeed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+
+                <hr>
+              <section id="filters">                    
+                <span class="comment-counter"><a href="#"><img src="images/commentsIcon.png" alt="commensIcon" id="modal-iconsFeed"></a></span>
+                <span class="upvote-counter"><a href="#"><img src="images/upvoteIcon.png" alt="upvoteIcon" id="modal-iconsFeed"></a></span>
+                <span class="downvote-counter"><a href="#"><img src="images/downvoteIcon.png" alt="downvoteIcon" id="modal-iconsFeed"></a></span>
+                <span class="share-counter"><a href="#"><img src="images/shareIcon.png" alt="shareIcon" id="modal-iconsFeed"></a></span>
+                <hr>
+              </section>
+              <section id="commentUser">
+                <textarea name="comments" id="commentBlock" placeholder="Login to Comment..." disabled></textarea>
+              </section>
+              <section id="commentsFeed">
+                <img id="modal-profilePicture"src="images/faruzanPNG.png" alt="faruzanChibi">Madam Faruzan</img>
+                <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  <hr>
+                  <span class="upvote-counter"><a href="#"><img src="images/upvoteIcon.png" alt="upvoteIcon" id="modal-iconsFeed"></a></span>
+                  <span class="downvote-counter"><a href="#"><img src="images/downvoteIcon.png" alt="downvoteIcon" id="modal-iconsFeed"></a></span>
+              </section>
+              <hr>
+              <section id="commentsFeed">
+                <img id="modal-profilePicture"src="images/faruzanPNG.png" alt="faruzanChibi">Madam Faruzan</img>
+                <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  <hr>
+                  <span class="upvote-counter"><a href="#"><img src="images/upvoteIcon.png" alt="upvoteIcon" id="modal-iconsFeed"></a></span>
+                  <span class="downvote-counter"><a href="#"><img src="images/downvoteIcon.png" alt="downvoteIcon" id="modal-iconsFeed"></a></span>
+              </section>
+              <hr>
+              <section id="commentsFeed">
+                <img id="modal-profilePicture"src="images/faruzanPNG.png" alt="faruzanChibi">Madam Faruzan</img>
+                <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  <hr>
+                  <span class="upvote-counter"><a href="#"><img src="images/upvoteIcon.png" alt="upvoteIcon" id="modal-iconsFeed"></a></span>
+                  <span class="downvote-counter"><a href="#"><img src="images/downvoteIcon.png" alt="downvoteIcon" id="modal-iconsFeed"></a></span>
+              </section>
+              </div>
+            </div>
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+              
+          </div>
+
+      </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div id="postId"></div>
+
+  <script>
+    const myModal = new bootstrap.Modal(document.getElementById('modalId'))
+  
+  </script>
+</body>
+</html>
