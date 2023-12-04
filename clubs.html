@@ -15,9 +15,9 @@
   <script src="globaljss.js"></script>
 
 </head>
-<body style=  'background-image: url("logos/Networking-PNG.png");
-background-size: cover;
-background-position: center;'>  
+    <body style=  'background-image: url("logos/Networking-PNG.png");
+    background-size: cover;
+    background-position: center;'>  
         <header>
           <img id="logoIcon" src="logos/Logo 1.png" alt="Logo InnoNet">
           <img id="logoIcon" src="logos/InnoNet.png" alt="InnoNet">
@@ -38,58 +38,114 @@ background-position: center;'>
           </nav>
         </header>
   <main>
-    <div id="InnoNetPost">
+    <div id="containerHome" class="container">
+        <div id="MainBar">
         <h2>Top Posts</h2>  
         <hr>
         <h3>I Couldn't Find my Dog, so I Built my Own Dog Tracker at Home</h3>
         <img id="profilePicture"src="images/kavehPNG.png" alt="kavehChibi">arki101</img><br>
-        <div class="category1">Computer Architecture (Category 1)</div>
-        <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          <div class="category1">Computer Architecture (Category 1)</div><br>
+          <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <div class="post-footer">
+              <span class="comment-counter"><img src="images/commentsIcon.png" alt="messageIcon" id="icons">  371</span>
+              <span class="upvote-counter"><img src="images/upvoteIcon.png" alt="upvoteIcon" id="icons"> 12.1k</span>
+              <span class="downvote-counter"><img src="images/downvoteIcon.png" alt="downvoteIcon" id="icons"> 576</span>
+              <span class="downvote-counter"><img src="images/shareIcon.png" alt="shareIcon" id="icons"> 576</span>
+          </div>
+          <hr>
+          <h3>Which IDE is suitable for Game Development?</h3>
+          <img id="profilePicture"src="images/nilouPNG.png" alt="nilouChibi">egotisticalPetrifier</img><br>
+          <div class="category2">Game Development (Category 2)</div>
+          <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <div class="post-footer">
+            <span class="comment-counter"><img src="images/commentsIcon.png" alt="messageIcon" id="icons">  371</span>
+            <span class="upvote-counter"><img src="images/upvoteIcon.png" alt="upvoteIcon" id="icons"> 12.1k</span>
+            <span class="downvote-counter"><img src="images/downvoteIcon.png" alt="downvoteIcon" id="icons"> 576</span>
+            <span class="downvote-counter"><img src="images/shareIcon.png" alt="shareIcon" id="icons"> 576</span>
+          </div>  
+          <hr>
+          <h3>Application that A.I. generates jokes </h3>
+          <img id="profilePicture"src="images/cynoPNG.png" alt="cynoChibi">MonthlyDoseofCyno</img><br>
+          <div class="category3">Software Development (Category 3)</div>
+          <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <div class="post-footer">
+            <span class="comment-counter"><img src="images/commentsIcon.png" alt="messageIcon" id="icons">  371</span>
+            <span class="upvote-counter"><img src="images/upvoteIcon.png" alt="upvoteIcon" id="icons"> 12.1k</span>
+            <span class="downvote-counter"><img src="images/downvoteIcon.png" alt="downvoteIcon" id="icons"> 576</span>
+            <span class="downvote-counter"><img src="images/shareIcon.png" alt="shareIcon" id="icons"> 576</span>
+          </div>  
+      </div>
+      <div id="sidebarInnoNet">
+        <div id="sidebar-one">
+          <h4>Share your Ideas~</h4>
+          <a href="#" id="Ideas"><img src="images/postLogo.png" alt="Post">Post</a>
+          <a href="#" id="Ideas"><img src="images/imageLogo.png" alt="Post">Image</a>
+          <a href="#" id="Ideas"><img src="images/videoLogo.png" alt="Post">Video</a>
+          <hr>
+          <h3>Featured Post</h3>
+          <hr>
+          <h5>University Students Created a Drone with A.I. Capabilities</h5>
+          <p>University students were able to create a robot that is able to scan the area using ...</p>
+          <hr>
         </div>
-        <div class="post-footer">
-            <span class="comment-counter"><img src="images/messageicon.png" alt="messageIcon" id="icons">  371</span>
-            <span class="upvote-counter"><img src="images/upvotePNG.png" alt="upvoteIcon" id="icons"> 12.1k</span>
-            <span class="downvote-counter"><img src="images/downvotePNG.png" alt="downvotePNG" id="icons"> 576</span>
+        <div id="sidebar-two">
+          <section>
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+              <a href="#"><img id="icons" src="images/usericon1.png" alt="usertofollow"></a>
+              <h5 style="margin-left: 10px; margin-right: auto;">User Testing</h5>
+              <a href="#"><img id="iconsplus" src="images/plus-circle.svg" alt="add icon" style="margin-left: auto;"></a>
+            </div>
+          </section>
+          
+          <section>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+          </section>
+          <hr>
+          <section>
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+              <a href="#"><img id="icons" src="images/usericon1.png" alt="usertofollow"></a>
+              <h5 style="margin-left: 10px; margin-right: auto;">User Testing</h5>
+              <a href="#"><img id="iconsplus" src="images/plus-circle.svg" alt="add icon" style="margin-left: auto;"></a>
+            </div>
+          </section>
+          
+          <section>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+          </section>
+          <hr>
+          <section>
+            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+              <a href="#"><img id="icons" src="images/usericon1.png" alt="usertofollow"></a>
+              <h5 style="margin-left: 10px; margin-right: auto;">User Testing</h5>
+              <a href="#"><img id="iconsplus" src="images/plus-circle.svg" alt="add icon" style="margin-left: auto;"></a>
+            </div>
+          </section>
+          
+          <section>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+            <a href="#"><img src="images/basicImage.png" alt="followimg" class="userFollowImg"></a>
+          </section>
+          <hr>
         </div>
-        <hr>
-        <h3>Which IDE is suitable for Game Development?</h3>
-        <img id="profilePicture"src="images/nilouPNG.png" alt="nilouChibi">egotisticalPetrifier</img><br>
-        <div class="category2">Game Development (Category 2)</div>
-        <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </div>
-        <div class="post-footer">
-            <span class="comment-counter"><img src="images/messageicon.png" alt="messageIcon" id="icons">  371</span>
-            <span class="upvote-counter"><img src="images/upvotePNG.png" alt="upvoteIcon" id="icons"> 12.1k</span>
-            <span class="downvote-counter"><img src="images/downvotePNG.png" alt="downvotePNG" id="icons"> 576</span>
-        </div>  
-        <hr>
-        <h3>Application that A.I. generates jokes </h3>
-        <img id="profilePicture"src="images/cynoPNG.png" alt="cynoChibi">MonthlyDoseofCyno</img><br>
-        <div class="category3">Software Development (Category 3)</div>
-        <div class="postText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </div>
-        <div class="post-footer">
-            <span class="comment-counter"><img src="images/messageicon.png" alt="messageIcon" id="icons">  371</span>
-            <span class="upvote-counter"><img src="images/upvotePNG.png" alt="upvoteIcon" id="icons"> 12.1k</span>
-            <span class="downvote-counter"><img src="images/downvotePNG.png" alt="downvotePNG" id="icons"> 576</span>
-        </div>  
+      </div>
     </div>
-        <div id="sidebarInnoNet"><h4>Share your Ideas~</h4>
-            <a href="#" id="Ideas"><img src="images/postLogo.png" alt="Post">Post</a>
-            <a href="#" id="Ideas"><img src="images/imageLogo.png" alt="Post">Image</a>
-            <a href="#" id="Ideas"><img src="images/videoLogo.png" alt="Post">Video</a>
-            <hr>
-            <h3>Featured Post</h3>
-            <hr>
-            <h3>University Students Created a Drone with A.I. Capabilities</h3>
-            <p>University students were able to create a robot that is able to scan the area using ...</p>
-            <hr>
-        </div>
+    
     </section>
 </main>
